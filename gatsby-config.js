@@ -5,7 +5,9 @@ module.exports = {
     description: `Programming tips and tricks, articles and tutorials on web development and related technologies`,
     siteUrl: `https://www.andersonmadeira.com/`,
     social: {
-      twitter: `andersonmadcs`,
+      linkedin: `https://www.linkedin.com/in/andersonmadeiracs/`,
+      github: `https://www.github.com/andersonmadeira`,
+      twitter: `https://twitter.com/andersonmadcs`,
     },
   },
   plugins: [

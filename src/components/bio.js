@@ -7,9 +7,12 @@
 
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+import { SocialIcon } from "react-social-icons"
 import Image from "gatsby-image"
 
 import { rhythm } from "../utils/typography"
+
+const socialIconStyle = { height: 30, width: 30, marginRight: 10 }
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -25,6 +28,8 @@ const Bio = () => {
         siteMetadata {
           author
           social {
+            linkedin
+            github
             twitter
           }
         }
@@ -33,6 +38,7 @@ const Bio = () => {
   `)
 
   const { author, social } = data.site.siteMetadata
+
   return (
     <div
       style={{
@@ -53,12 +59,34 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
-      <p>Here I write about code and related technologies</p>
-      <p>
-        <a href={`https://twitter.com/${social.twitter}`}>
-          {`@${social.twitter}`}
-        </a>
-      </p>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <p style={{ marginBottom: 5 }}>
+          Here I write about code and related technologies
+        </p>
+        <p>
+          <SocialIcon
+            style={socialIconStyle}
+            target="_blank"
+            url={social.linkedin}
+          />
+          <SocialIcon
+            style={socialIconStyle}
+            target="_blank"
+            url={social.github}
+            bgColor="#000"
+          />
+          <SocialIcon
+            style={socialIconStyle}
+            target="_blank"
+            url={social.twitter}
+          />
+        </p>
+      </div>
     </div>
   )
 }
