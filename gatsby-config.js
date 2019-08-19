@@ -3,7 +3,7 @@ module.exports = {
     title: `Anderson Madeira`,
     author: `Anderson Madeira`,
     description: `Programming tips and tricks, articles and tutorials on web development and related technologies`,
-    siteUrl: `https://www.andersonmadeira.com/blog/`,
+    siteUrl: `https://www.andersonmadeira.com/`,
     social: {
       twitter: `andersonmadcs`,
     },

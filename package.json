@@ -1,11 +1,11 @@
 {
-  "name": "andersonmadeira-blog",
+  "name": "andersonmadeira.com",
   "private": true,
   "description": "Programming tips and tricks, articles and tutorials on web development and related technologies",
   "version": "0.1.0",
   "author": "Anderson Madeira <andersonmadeiracs@gmail.com>",
   "bugs": {
-    "url": "https://github.com/andersonmadeira/andersonmadeira-blog/"
+    "url": "https://github.com/andersonmadeira/andersonmadeira.com/"
   },
   "dependencies": {
     "gatsby": "^2.13.64",
@@ -33,12 +33,12 @@
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75",
     "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
+    "typography-theme-moraga": "^0.16.19"
   },
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "homepage": "https://github.com/andersonmadeira/andersonmadeira-blog#readme",
+  "homepage": "https://github.com/andersonmadeira/andersonmadeira.com#readme",
   "keywords": [
     "gatsby"
   ],
@@ -46,7 +46,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andersonmadeira/andersonmadeira-blog.git"
+    "url": "git+https://github.com/andersonmadeira/andersonmadeira.com.git"
   },
   "scripts": {
     "build": "gatsby build",

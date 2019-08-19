@@ -53,9 +53,8 @@ const Bio = () => {
           borderRadius: `50%`,
         }}
       />
+      <p>Here I write about code and related technologies</p>
       <p>
-        Here I write about programming and related technologies
-        {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           {`@${social.twitter}`}
         </a>
