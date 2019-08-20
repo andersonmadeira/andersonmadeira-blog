@@ -66,7 +66,8 @@ const Bio = () => {
         }}
       >
         <p style={{ marginBottom: 5 }}>
-          Here I write about code and related technologies
+          Full Stack Developer. Here I write about code and related
+          technologies.
         </p>
         <p>
           <SocialIcon
