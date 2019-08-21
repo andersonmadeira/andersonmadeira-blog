@@ -1,20 +1,22 @@
 ---
-title: New Beginnings
+title: React vs Angular - It's All About State?
 date: "2015-05-28T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: This article compares Angular and React ecosystems exposing how the two manage state and data flow in a modern web application.
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+With a flood of frontend frameworks and libraries of today, some remain on stage for the fight. Today we'll talk about the core differences between Angular and React.
 
-## On deer horse aboard tritely yikes and much
+## A Brief Introduction
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Ok, we all know that Angular and React are two different things. Angular is a full fledged framework that ships all you need to build a full modern web app, while React is _"a JavaScript library for building user interfaces"_.
+
+Since React is **just** a library (and awesome by the way), when you're using React to create a new web app, you need to adhere to a set of libraries for http requests, better state management and so on. Thus when refering to React, please remember that I'm refering to the ecosystem not just the library. :)
+
+## The Angular way: DI and Services
+
+Just as its predecessor (angularjs), Angular comes with Dependency Injection so we can inject Services into our components, and that enables the basic state management that we see as soon as we first use Angular.
+
+Do acomplish that we firstly create our service:
 
 - This however showed weasel
 - Well uncritical so misled

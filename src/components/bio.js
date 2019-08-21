@@ -69,7 +69,7 @@ const Bio = () => {
           Full Stack Developer. Here I write about code and related
           technologies.
         </p>
-        <p>
+        <div>
           <SocialIcon
             style={socialIconStyle}
             target="_blank"
@@ -86,7 +86,7 @@ const Bio = () => {
             target="_blank"
             url={social.twitter}
           />
-        </p>
+        </div>
       </div>
     </div>
   )
